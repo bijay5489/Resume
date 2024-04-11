@@ -1,0 +1,235 @@
+%-------------------------
+% Resume in Latex
+% Author : BIJAY PANTA
+% Based off of: Jake Gutierrez
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Bijay Panta} \\ \vspace{1pt}
+    4726 North Hollywood Ave, Milwaukee, WI 53211 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 414-861-3287 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{pantabijay@gmail.com}} ~ 
+    \href{https://bit.ly/3uCkA1T}{\raisebox{-0.2\height}\faLinkedin\ \underline{https://bit.ly/3uCkA1T}}  ~
+    \href{https://bit.ly/48is5sw}{\raisebox{-0.2\height}\faGithub\ \underline{https://bit.ly/48is5sw}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Wisconsin- Milwaukee}{Milwaukee, WI}
+      {Bachelor of Science in Computer Science}{}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=3pt]
+                \item\small Data Structures and Algorithms
+                \item Discrete Structure
+                \item Intro to Software Engineering
+                \item Computer Architecture
+                \item Rich Internet Applications
+                \item Systems Programming
+                \item Programming Languages Concepts
+                \item Machine Learning
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {raSmith}{May 2022 -- August 2023}
+      {Information Technology Intern}{Brookfield, WI}
+      \resumeItemListStart
+        \resumeItem{ Provided comprehensive IT support, including reimaging computers, setting up new hires, creating 
+        user accounts, and troubleshooting issues.}
+        \resumeItem{Incorporated scripts using Python and PowerShell to Conducted software updates, performed routine maintenance, and executed hardware upgrades for 
+        100+ users.}
+        \resumeItem{Assisted in cloud server migration and managed distribution list migration}
+        \resumeItem{Conducted software updates, performed routine maintenance, and executed hardware upgrades for 
+        100+ users. Leveraged PowerShell for efficient remote installations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Surf Undergraduate Research}{August 2023 -- Present}
+      {Developer}{Milwakuee, WI}
+      \resumeItemListStart
+        \resumeItem{Developing and refining 4-5 guided walking speed techniques for virtual reality using Unity3D. Translating ideas into functional code to control users' walking speeds effectively}
+        \resumeItem{Worked with Unity and VS code to manage user's inputted data, Gather eye calibration and eye gaze data. Creating an Finite-state machine for the entire experiment. }
+        \resumeItem{Collaborated with team members to run the experiment and present the experiment from UWM staff and students. Potential involvement in research documentation and presentation in the VR Conference in Seattle.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Peer Mentoring }{January 2024 -- Present}
+      {Menter}{Milwakuee, WI}
+      \resumeItemListStart
+        \resumeItem{As a Peer Mentor for Computer Science students at UWM, I guide freshmen and sophomores 
+        through their transition to university life offering advice, academic and personal support, and 
+        information on campus resources}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{TA-Scheduler-App } $|$ \emph{Python, Django, HTML/CSS, VS Code}}{December 2023}
+          \resumeItemListStart
+            \resumeItem{ Developed a potential digital TA scheduling web application for the Computer Science department, Built with Python and Visual Studio Code, it features role-specific functionalities for Supervisors, Instructors, and TAs, ensuring efficient scheduling and communication.}
+            \resumeItem{The application prioritizes data security and has undergone rigorous unit and acceptance testing to guarantee reliability.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Weather App} $|$ \emph{JavaScript, VS Code}}{March 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a dynamic weather forecast application utilizing JavaScript and the OpenWeather API, allowing users to obtain a 5-day weather outlook based on city name, zip code, or coordinates through an intuitive web interface}
+            \resumeItem{Employed AJAX for real-time data fetching, and implemented logic for parsing JSON responses to accurately calculate and display high temperatures, cloud cover, and pressure for a concise three-day forecast, enhancing user experience with efficient error handling for invalid inputs}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Web Page Spell Checker} $|$ \emph{Java, Eclipse}}{October 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented object-oriented programming practices such as inheritance to create different class types and databases.}
+            \resumeItem{Implemented array algorithms, including mergesort, for the development of a web page spell checker. Downloading online text and checking it by our dictionary.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+                  
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C, C-sharp , HTML/CSS, JavaScript, SQL, R} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Unity,  , React , RStudio , Gitlab} \\
+     \textbf{Technologies/Frameworks}{: Linux, Cygwin64, GitHub, Django} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+\end{document}
